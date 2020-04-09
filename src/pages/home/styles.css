@@ -1,0 +1,28 @@
+section{
+    margin: 0px 10%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+header.title{
+    margin-bottom: 20px;
+}
+
+.formacao, .experiencia, .qualificacoes{
+    margin: 10px 0;
+}
+
+.experiencia h5{
+    font-weight: bold;
+}
+
+.experiencia ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.experiencia ul li, p, h5,h3{
+    margin-top: 10px;
+}
+
