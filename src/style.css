@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+}
+
+header.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.432);
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #f6f6f6;
+    
+}
+
+main#root{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 79vh 10vh ;
+}
+
+.cabecalho h1{
+    color: #2c2c2c;
+    margin-left: 20px;
+}
+
+.menu{
+    margin-right: 20px;
+
+}
+
+.cabecalho .menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho .menu ul li{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.cabecalho .menu ul li a{
+    text-decoration: none;
+    color: #a1a1a1;
+    transition: 0.5s;
+}
+
+.cabecalho .menu ul li a:hover{
+    color: #2c2c2c;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.432);
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+footer a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 10px;
+    width: 80px;
+    height: 100px;
+}
+
+footer a img{
+    width: 30px;
+    height: 30px;
+}
