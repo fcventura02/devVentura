@@ -16,6 +16,14 @@ body{
     background-color: #fcfcfc;
 }
 
+main#root{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 header.cabecalho{
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.432);
     background-color: #f6f6f6;
@@ -31,13 +39,7 @@ header .cabecalho-menu{
     max-width: 980px;
     height: 60px;
 }
-/*
-main#root{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10vh 80vh 10vh ;
-}
-*/
+
 .cabecalho h1{
     color: #2c2c2c;
     font-size: 2.4rem;
@@ -73,6 +75,7 @@ footer{
     margin-top: 20px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.432);
     background-color: #f6f6f6;
+    margin: auto auto 0;
 }
 
 footer .container{
