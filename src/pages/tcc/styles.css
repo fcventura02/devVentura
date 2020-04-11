@@ -1,0 +1,50 @@
+.tcc{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.title{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.introducao{
+    font-size: 1.4rem;
+    text-indent: 3rem;
+}
+
+.problema{
+    font-size: 1.4rem;
+}
+
+.problema .title-problema{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.objetivos {
+    font-size: 1.4rem;
+    text-indent: 3rem;
+}
+
+.objetivos .title-objetivo{
+    text-indent: 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.justificativa p + p{
+    font-size: 1.4rem;
+    text-indent: 3rem;
+}
+
+.justificativa .titulo-tema{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
