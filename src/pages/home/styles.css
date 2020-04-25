@@ -136,7 +136,7 @@ header.apresentacao{
     margin-left: 20px;
 }
 
-.experiencia ul li, p, h5,h3{
+.experiencia ul li, .experiencia p, .experiencia h5,.experiencia h3{
     margin-top: 10px;
 }
 

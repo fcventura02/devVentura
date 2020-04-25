@@ -2,13 +2,56 @@
     display: flex;
     flex-direction: column;
     width: 90%;
+    max-width: 980px;
     margin: 40px auto;
+    background-color: #f6f6f6;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.432);
+    border-radius: 4px;
+}
+
+.tcc__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px 4px 0  0;
+    background-color: #c519c2;
+}
+
+.tcc__autor{
+    padding: 1.5rem 1.5rem;
+    font-size: 1.1rem;
+    color: #f6f6f6;
+    display: flex;
+    text-transform: uppercase;
+}
+.tcc__autor p + p{
+    padding: 0 0 0 0.9rem;
+}
+
+.autor__redeSocial{
+    padding: 1.5rem 1.5rem;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+
+.autor__redeSocial a{
+    color: #65c3e8;
+    font-size: 1.6rem;
+}
+
+.tcc__conteudo{
+    padding: 2rem 1.5rem ;
+}
+
+.tcc__conteudo p {
+    padding-top: 1rem ;
 }
 
 .title{
     font-size: 1.8rem;
     text-transform: uppercase;
     text-align: center;
+    color: rgba(2, 2, 2, 0.89);
 }
 
 .introducao{
