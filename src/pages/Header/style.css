@@ -127,11 +127,12 @@ input:checked [class~=root]{
     }
 
     input:checked ~ label .menu__itens{
+        display: flex;
         opacity: 1;
     }
 
     label .menu__itens{
-        display: flex;
+       display: none; 
         opacity: 0;
         position: absolute; 
         justify-content: center;
