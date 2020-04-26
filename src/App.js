@@ -1,6 +1,7 @@
 import React from 'react';
-import MainRoute from './router'
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import MainRoute from './router';
+import Menu from './pages/Header';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 
@@ -8,18 +9,7 @@ import './style.css';
 function App() {
   return (
     <Router>
-      <header className="cabecalho">
-        <div className="cabecalho-menu">
-          <h1>Dev Ventura</h1>
-
-          <div className="menu">
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/tcc">TCC</Link></li>
-            </ul>
-          </div>
-        </div>
-      </header>
+      <Menu />
       <MainRoute />
       <footer>
         <div className="container">

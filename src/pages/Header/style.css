@@ -1,0 +1,153 @@
+header.cabecalho{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.432);
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+header .cabecalho-menu{   
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    max-width: 980px;
+    height: 60px;
+}
+
+.cabecalho h1{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.cabecalho h1 a{
+    text-decoration: none;
+    color: #c519c2;
+    cursor: default;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    position: relative;
+}
+
+.cabecalho .menu__itens  .menu__item{
+    text-decoration: none;
+    color: #a1a1a1;
+    transition: 0.5s;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.cabecalho .menu__itens  .menu__item + .menu__item{
+    margin-left: 1rem;
+}
+
+.cabecalho .menu__itens  .menu__item:hover{
+    color: #c519c2;
+}
+
+.cabecalho .menu__itens .menu__item--active{
+    color: #c519c2;
+}
+
+.menu__hamburguer__item{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    display: none;
+    border-radius: 100%;
+    box-shadow: 0 0 0 0 #f6f6f6, 0 0 0 0 #f6f6f6;
+    transition: box-shadow 1.1s cubic-bezier(0.24, 0.76, 0.24, 0.77);
+}
+
+.hamburguer{
+    border-radius: 100%;
+    display: block;
+    background: #c519c2;
+    width: 30px;
+    height: 2px;
+    top: 28px;
+    left: 15px;
+    position: relative;
+    transition: 0.5s linear;
+}
+
+.hamburguer:before, .hamburguer:after{
+    content: '';
+    background: #c519c2;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s linear;
+}
+
+.hamburguer:before{
+    top: -10px;
+}
+
+.hamburguer:after{
+    top: 10px;
+}
+
+#menu__hamburguer{
+    display: none;
+}
+
+input:checked ~ label .menu__hamburguer__item{
+    box-shadow: 0 0 0 100vw #f6f6f6, 0 0 0 110vh #f6f6f6;
+}
+
+input:checked ~ label .hamburguer{
+    transform: rotate(45deg);
+}
+
+input:checked ~ label .hamburguer:before{
+    transform: rotate(-90deg);
+    top: 0;
+}
+
+input:checked ~ label .hamburguer:after{
+    transform: rotate(-90deg);
+    top: 0;
+}
+
+input:checked [class~=root]{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 500px){
+    .menu__hamburguer__item{
+        display: flex;
+    }
+
+    input:checked ~ label .menu__itens{
+        opacity: 1;
+    }
+
+    label .menu__itens{
+        display: flex;
+        opacity: 0;
+        position: absolute; 
+        justify-content: center;
+        align-items: center;
+        top: 40%;
+        left: 50%;
+        transition: 0.21s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
+    }
+    .cabecalho label .menu__itens .menu__item{
+        display: flex;
+        position: absolute;
+        font-size: 3rem;    
+    }
+
+    .cabecalho label .menu__itens  .menu__item + .menu__item{
+        margin-top: 6rem;
+        margin-left: 0rem;
+    }
+}
