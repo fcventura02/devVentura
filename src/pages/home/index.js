@@ -35,7 +35,7 @@ function Home() {
             Me chamo <span>Filipe Ventura</span>, atualmente estou iniciando na arte
             da programação, sou graduando em Sistema da informação na faculdate
             Pitágoras. Já participei da semanaOmnistek da Rocketseat e hoje estou participando da
-            aceleração react-11 da Codenation.
+            aceleração React da Codenation.
           </p>
         </header>
         <article className="container-info">

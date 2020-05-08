@@ -21,8 +21,8 @@ function App() {
 
     return (
         <header className="cabecalho">
-            <div className="cabecalho-menu">
-                <h1><NavLink activeClassName='menu__item--active' to="/">Dev Ventura</NavLink></h1>
+            <div className="cabecalho__menu">
+                <h1><NavLink to="/">Dev Ventura</NavLink></h1>
 
                 <input type="checkbox" onClick={() => menuClick()} id="menu__hamburguer" />
                 <label htmlFor="menu__hamburguer">

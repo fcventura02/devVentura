@@ -4,7 +4,7 @@ header.cabecalho{
     width: 100%;
 }
 
-header .cabecalho-menu{   
+header .cabecalho__menu{   
     display: flex;
     justify-content: space-between; 
     align-items: center;
