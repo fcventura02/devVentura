@@ -1,7 +1,7 @@
 import React from 'react';
 import MainRoute from './router';
 import Menu from './pages/Header';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 
 

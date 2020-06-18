@@ -10,13 +10,12 @@ function Home() {
           <h1>With each new  <span>code</span> a new <span>adventure</span></h1>
           <ul className="contacts-list">
             <li className="contacts-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/fcventura02">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/fcventura02">
                 <i className="fa fa-github" aria-hidden="true"></i>
               </a>
             </li>
             <li className="contacts-item">
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/fcventura02/">
-
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </li>
