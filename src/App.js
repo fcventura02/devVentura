@@ -21,11 +21,9 @@ function App() {
             </li>
             <li className="rodape-contacts-item">
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/fcventura02/">
-
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </li>
-
           </ul>
           <div className="rodape-contacts">
             <a target="_blank" rel="noopener noreferrer" href={`mailto:Filipecvr4@gmail.com`}>

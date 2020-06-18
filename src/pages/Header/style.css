@@ -124,6 +124,7 @@ input:checked [class~=root]{
 @media screen and (max-width: 500px){
     .menu__hamburguer__item{
         display: flex;
+        z-index: 3;
     }
 
     input:checked ~ label .menu__itens{
@@ -140,6 +141,7 @@ input:checked [class~=root]{
         top: 40%;
         left: 50%;
         transition: 0.21s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
+        z-index: 3;
     }
     .cabecalho label .menu__itens .menu__item{
         display: flex;
