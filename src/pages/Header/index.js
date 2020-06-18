@@ -35,7 +35,8 @@ function App() {
 
                     <div className="menu__itens">
                         <NavLink activeClassName='menu__item--active' className="menu__item" to="/">Home</NavLink>
-                        <NavLink activeClassName='menu__item--active' className="menu__item " to="/tcc">TCC</NavLink>
+                        <NavLink activeClassName='menu__item--active' className="menu__item" to="/portifolio">Portifólio</NavLink>
+
                     </div>
                 </label>
             </div>
